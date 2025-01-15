@@ -7,6 +7,7 @@ public class Pour : Holdable
     public float inclinationThreshold;
     public float basePouringSpeed;
     public GameObject pouringPoint;
+    public bool isCoffee;
 
     void Update()
     {
@@ -19,7 +20,12 @@ public class Pour : Holdable
                 {
                     Cup cup = PlayerData.GetInstance().cup;
                     if (cup != null && hit.collider.gameObject.Equals(cup.gameObject))
-                        cup.IncreaseCoffee(inclination * basePouringSpeed * Time.deltaTime);
+                    {
+                        if (isCoffee)
+                            cup.IncreaseCoffee(inclination * basePouringSpeed * Time.deltaTime);
+                        else
+                            cup.IncreaseMilk(inclination * basePouringSpeed * Time.deltaTime);
+                    }
                 }
             }
         }
