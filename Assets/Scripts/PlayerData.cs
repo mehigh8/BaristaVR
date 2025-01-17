@@ -7,6 +7,7 @@ public class PlayerData : MonoBehaviour
     public Cup cup = null;
     public Pour pour = null;
     public LayerMask cupLayer;
+    public HandUIManager handUIManager;
 
     private static PlayerData instance;
 
