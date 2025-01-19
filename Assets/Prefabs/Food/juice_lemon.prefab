@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33451060123574350}
   - component: {fileID: 23675114042763542}
   - component: {fileID: 64665783196720016}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: juice
   m_TagString: Fluid
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 33344234134164802}
   - component: {fileID: 23367014578753810}
   - component: {fileID: 64491621786159946}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: lemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 33821905680164524}
   - component: {fileID: 23255361704186410}
   - component: {fileID: 64976282932464018}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,11 @@ GameObject:
   - component: {fileID: 8771316858275494832}
   - component: {fileID: 1288464697264866588}
   - component: {fileID: 8990493517969942635}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> 282d628cae1a8b2a819eb2669d09287ac66f8a79
   m_Name: juice_lemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

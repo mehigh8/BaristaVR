@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 4763892074138496621}
   - component: {fileID: 5075617343029723571}
   - component: {fileID: 5500797571524422750}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> 282d628cae1a8b2a819eb2669d09287ac66f8a79
   m_Name: sandwitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +187,7 @@ GameObject:
   - component: {fileID: 9024733412593519703}
   - component: {fileID: 2021427507723012588}
   - component: {fileID: 3954295126869595656}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: flat_bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +293,7 @@ GameObject:
   - component: {fileID: 5045147880218914061}
   - component: {fileID: 2304686835829675914}
   - component: {fileID: 3550512290630618173}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sesame_bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +399,7 @@ GameObject:
   - component: {fileID: 6299360880437567550}
   - component: {fileID: 6195193127629516667}
   - component: {fileID: 9094038516972860657}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +505,7 @@ GameObject:
   - component: {fileID: 1293102909732962560}
   - component: {fileID: 27287308941434914}
   - component: {fileID: 3861418179926193299}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: cheese
   m_TagString: Untagged
   m_Icon: {fileID: 0}

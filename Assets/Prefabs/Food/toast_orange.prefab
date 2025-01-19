@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 7807704601127942208}
   - component: {fileID: 2637078736325100171}
   - component: {fileID: 3695756691431797488}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> 282d628cae1a8b2a819eb2669d09287ac66f8a79
   m_Name: toast_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +186,7 @@ GameObject:
   - component: {fileID: 647866904842440226}
   - component: {fileID: 1449536789401032429}
   - component: {fileID: 5260148587384006374}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +292,7 @@ GameObject:
   - component: {fileID: 2909311363788505532}
   - component: {fileID: 400221558154782233}
   - component: {fileID: 3086908784628957480}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: cream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +398,7 @@ GameObject:
   - component: {fileID: 1403277378322964110}
   - component: {fileID: 2127980014235614776}
   - component: {fileID: 4435984140928224579}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: oranges
   m_TagString: Untagged
   m_Icon: {fileID: 0}
