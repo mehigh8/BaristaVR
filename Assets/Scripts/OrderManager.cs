@@ -16,30 +16,30 @@ public class OrderManager : MonoBehaviour
     public Vector3 halfBoxSizes;
     public List<GameObject> possibleFoodItems = new List<GameObject>();
     public float chanceForFood;
-    public Order currentOrder = null;
+    public Order currentOrder;
+    [HideInInspector] public QueueManager queueManager;
 
     private static OrderManager instance = null;
     private GameObject cup = null;
     private GameObject food = null;
-
+    private bool hasOrder;
+    
     void Awake()
     {
         if (instance == null)
             instance = this;
         else
             Destroy(this);
-
-        currentOrder = new Order();
-        currentOrder.coffee = new Vector2(0.33f, 0.66f);
-        currentOrder.food = "cookie";
+        hasOrder = false;
     }
 
     public static OrderManager GetInstance() => instance;
 
     public void GenerateOrder()
     {
-        if (currentOrder != null) return;
-
+        if (hasOrder)
+            return;
+        hasOrder = true;
         currentOrder = new Order();
         int orderNumber = Random.Range(0, 4);
         currentOrder.coffee = new Vector2(0.33f * orderNumber, 1f - (0.33f * orderNumber));
@@ -65,7 +65,7 @@ public class OrderManager : MonoBehaviour
             if (PlayerData.LayerMaskContains(PlayerData.GetInstance().cupLayer, item.gameObject.layer))
                 cup = item.gameObject;
 
-            if (PlayerData.LayerMaskContains(PlayerData.GetInstance().foodLayer, item.gameObject.layer))
+            if (PlayerData.LayerMaskContains(PlayerData.GetInstance().foodLayer, item.gameObject.layer) && item.name.Contains(currentOrder.food))
                 food = item.gameObject;
         }
 
@@ -75,7 +75,7 @@ public class OrderManager : MonoBehaviour
                 CompleteOrder();
             else
             {
-                if (food != null && food.name.Contains(currentOrder.food)) 
+                if (food != null) 
                     CompleteOrder();
             }
         }
@@ -84,6 +84,7 @@ public class OrderManager : MonoBehaviour
     private void CompleteOrder()
     {
         // What happens when order is completed
+        queueManager.OrderComplete();
         print("Order was compeleted");
 
         Destroy(cup);
@@ -96,6 +97,7 @@ public class OrderManager : MonoBehaviour
         }
 
         currentOrder = null;
+        hasOrder = false;
     }
 
     private void OnDrawGizmosSelected()

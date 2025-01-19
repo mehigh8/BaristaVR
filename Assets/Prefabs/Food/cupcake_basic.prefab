@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1253578217109630544}
   - component: {fileID: 1671445516966802481}
   m_Layer: 7
-  m_Name: cupcake
+  m_Name: cupcake_basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

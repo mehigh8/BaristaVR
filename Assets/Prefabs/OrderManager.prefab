@@ -46,25 +46,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   servingPoint: {fileID: 6763458943438995917}
-  halfBoxSizes: {x: 0.2, y: 0.1, z: 0.2}
+  halfBoxSizes: {x: 0.5, y: 0.1, z: 0.5}
   possibleFoodItems:
-  - {fileID: 1860487001278374014, guid: 0b8a71cbb8b905141b07e298eff7f2d1, type: 3}
-  - {fileID: 1730609000794682, guid: 9007700338d194bd18e3086f4600a7ea, type: 3}
+  - {fileID: 1860487001278374014, guid: 0f2369ec1710e9142a746b98c87291bf, type: 3}
+  - {fileID: 1730609000794682, guid: 6f339c0d3cb09644ba9c9ac9c7eb1979, type: 3}
   - {fileID: 1921254186118406, guid: 5e6527792754e41d48aec14c1dafd8af, type: 3}
   - {fileID: 1982925297928428, guid: 75221d19731aa453d81714a24451c72a, type: 3}
   - {fileID: 1533911595845050, guid: 80b8d62454dc44cf2984af37c98f941e, type: 3}
   - {fileID: 1080854471979460, guid: 0683ba921c1a542ea8dae92b271c1e18, type: 3}
   - {fileID: 1647761561661000, guid: 77b051a1cce5b4a36a8cca319997554d, type: 3}
-  - {fileID: 1915065632980748, guid: 7b9e9044605a04568a0c9d41cebd7913, type: 3}
-  - {fileID: 8578366044045841167, guid: e09f78bcd1f70114486ac2f52e2c83c8, type: 3}
-  - {fileID: 85555178750607112, guid: ce13b4588e6693544bcb9303e099be00, type: 3}
-  - {fileID: 562466370004600200, guid: c72b94efaca645a40a59f6d564b94946, type: 3}
-  - {fileID: 1727942020385971762, guid: a3475f929e8a9564c90d97fe9c13c887, type: 3}
+  - {fileID: 1915065632980748, guid: f188a3db869654e478c9e0061286f912, type: 3}
+  - {fileID: 8578366044045841167, guid: 7842dbaef614bc64682a374bf41f9a62, type: 3}
+  - {fileID: 562466370004600200, guid: 75c3a19e279bdda4abf9dd54cc584faf, type: 3}
+  - {fileID: 85555178750607112, guid: ef2402b30c76f504caddebbc7a21e739, type: 3}
+  - {fileID: 1727942020385971762, guid: 882bac7a0bcb0e54098e180253ead6e9, type: 3}
   - {fileID: 3743587825372654295, guid: c0122a66b777d2c488e2244f3bcf80a8, type: 3}
   chanceForFood: 0.5
   currentOrder:
     coffee: {x: 0, y: 0}
     food: 
+  queueManager: {fileID: 0}
 --- !u!1 &6763458943438995917
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,7 +91,7 @@ Transform:
   m_GameObject: {fileID: 6763458943438995917}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.779, y: 0.534, z: 0.249}
+  m_LocalPosition: {x: 0.179, y: 0.082, z: -0.344}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

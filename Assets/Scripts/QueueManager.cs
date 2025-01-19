@@ -70,7 +70,7 @@ public class QueueManager : MonoBehaviour
             
             if (destinations[i] == transform.position && Vector3.Distance(clients[i].transform.position, destinations[i]) < 0.5f)
             {
-                // create order
+                OrderManager.GetInstance().GenerateOrder();
             }
             if (destinations[i] == exitPoint.position &&
                 Vector3.Distance(clients[i].transform.position, destinations[i]) < 0.5f)
@@ -97,6 +97,7 @@ public class QueueManager : MonoBehaviour
         clients = new List<GameObject>();
         destinations = new List<Vector3>();
         StartCoroutine(ClientSpawning());
+        OrderManager.GetInstance().queueManager = this;
     }
 
     void Update()
