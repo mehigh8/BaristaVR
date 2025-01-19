@@ -61,11 +61,15 @@ MonoBehaviour:
   - {fileID: 85555178750607112, guid: ef2402b30c76f504caddebbc7a21e739, type: 3}
   - {fileID: 1727942020385971762, guid: 882bac7a0bcb0e54098e180253ead6e9, type: 3}
   - {fileID: 3743587825372654295, guid: c0122a66b777d2c488e2244f3bcf80a8, type: 3}
+  scorePrefab: {fileID: 2447894558845968823, guid: fc5fcf5e8c433664e94fbd1871260bcc, type: 3}
+  scoreRef: {fileID: 0}
   chanceForFood: 0.5
   currentOrder:
     coffee: {x: 0, y: 0}
     food: 
   queueManager: {fileID: 0}
+  fadeSpeed: 0.01
+  moveSpeed: 0.1
 --- !u!1 &6763458943438995917
 GameObject:
   m_ObjectHideFlags: 0
