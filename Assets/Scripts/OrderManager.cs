@@ -75,7 +75,7 @@ public class OrderManager : MonoBehaviour
                 CompleteOrder();
             else
             {
-                if (food != null)
+                if (food != null && food.name.Contains(currentOrder.food)) 
                     CompleteOrder();
             }
         }
