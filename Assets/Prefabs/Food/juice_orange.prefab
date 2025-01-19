@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 3439942847986113954}
   - component: {fileID: 7201555190888542318}
   m_Layer: 8
-  m_Name: PW_orangejuice (4)
+  m_Name: juice_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

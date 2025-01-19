@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,26 +8,41 @@ public class Cup : Holdable
 {
     public GameObject coffee;
     public Renderer coffeeRenderer;
-    public Image coffeeIndicator;
-    public Image milkIndicator;
+    public Transform coffeeIndicator;
+    public Transform milkIndicator;
     public Color coffeeColor;
     public Color milkColor;
-
+    [SerializeField] private Transform canvasPivot;
+    
     private bool isFull = false;
 
     public float coffeeAmount;
     public float milkAmount;
     public float totalAmount;
+    private GameObject playerCam;
+    private void Start()
+    {
+        playerCam = Camera.main.gameObject;
+        if (playerCam)
+            print("got gamera");
+        else
+            print("failed to get cam");
+    }
 
+    private void RotateCanvas()
+    {
+        canvasPivot.forward = -(playerCam.transform.position - canvasPivot.position).normalized;
+    }
+    
     private void Update()
     {
-        coffeeAmount = coffeeIndicator.transform.localScale.y;
-        milkAmount = milkIndicator.transform.localScale.y;
+        RotateCanvas();
+        coffeeAmount = coffeeIndicator.localScale.y;
+        milkAmount = milkIndicator.localScale.y;
         totalAmount = coffeeAmount + milkAmount;
-
+        
         if (totalAmount > 0.01f)
         {
-            print("Sunt aici");
             Color color = Color.Lerp(coffeeColor, milkColor, ColorMixFunction(coffeeAmount / totalAmount));
             coffeeRenderer.material.color = color;
         }
@@ -65,9 +81,9 @@ public class Cup : Holdable
 
         if (!isFull)
         {
-            coffeeIndicator.transform.localScale += new Vector3(0, quantity, 0);
-            if (coffeeIndicator.transform.localScale.y > 1)
-                coffeeIndicator.transform.localScale = new Vector3(coffeeIndicator.transform.localScale.x, 1, coffeeIndicator.transform.localScale.z);
+            coffeeIndicator.localScale += new Vector3(0, quantity, 0);
+            if (coffeeIndicator.localScale.y > 1)
+                coffeeIndicator.localScale = new Vector3(coffeeIndicator.localScale.x, 1, coffeeIndicator.localScale.z);
         }
     }
 
@@ -77,9 +93,9 @@ public class Cup : Holdable
 
         if (!isFull)
         {
-            milkIndicator.transform.localScale += new Vector3(0, quantity, 0);
-            if (milkIndicator.transform.localScale.y > 1)
-                milkIndicator.transform.localScale = new Vector3(milkIndicator.transform.localScale.x, 1, milkIndicator.transform.localScale.z);
+            milkIndicator.localScale += new Vector3(0, quantity, 0);
+            if (milkIndicator.localScale.y > 1)
+                milkIndicator.localScale = new Vector3(milkIndicator.localScale.x, 1, milkIndicator.localScale.z);
         }
     }
 }
