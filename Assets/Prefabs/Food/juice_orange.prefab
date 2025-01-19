@@ -330,11 +330,7 @@ GameObject:
   - component: {fileID: 3623036461147216219}
   - component: {fileID: 3439942847986113954}
   - component: {fileID: 7201555190888542318}
-<<<<<<< HEAD
   m_Layer: 7
-=======
-  m_Layer: 0
->>>>>>> 282d628cae1a8b2a819eb2669d09287ac66f8a79
   m_Name: juice_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}

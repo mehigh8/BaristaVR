@@ -224,11 +224,7 @@ GameObject:
   - component: {fileID: 6505608724470161382}
   - component: {fileID: 8853994712805110252}
   - component: {fileID: 9060223182029047365}
-<<<<<<< HEAD
   m_Layer: 7
-=======
-  m_Layer: 0
->>>>>>> 282d628cae1a8b2a819eb2669d09287ac66f8a79
   m_Name: toast_tomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}

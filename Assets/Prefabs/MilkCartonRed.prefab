@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 4153726187546798538}
   - component: {fileID: 714195627894036893}
   - component: {fileID: 2488171345339668356}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: MilkCartonRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}

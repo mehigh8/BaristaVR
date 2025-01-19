@@ -12,11 +12,7 @@ GameObject:
   - component: {fileID: 4763892074138496621}
   - component: {fileID: 5075617343029723571}
   - component: {fileID: 5500797571524422750}
-<<<<<<< HEAD
   m_Layer: 7
-=======
-  m_Layer: 0
->>>>>>> 282d628cae1a8b2a819eb2669d09287ac66f8a79
   m_Name: sandwitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 85555178750607112}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.08461044, y: 0.033394452, z: -0.049770817}
-  m_LocalScale: {x: 0.49770826, y: 0.8348596, z: 0.4977082}
+  m_LocalPosition: {x: -2.6549277, y: -0.5820838, z: -0.3111216}
+  m_LocalScale: {x: 0.49770826, y: 0.49770832, z: 0.4977082}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3210083112558948806}

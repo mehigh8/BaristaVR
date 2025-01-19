@@ -15,11 +15,7 @@ GameObject:
   - component: {fileID: 1235161511780338763}
   - component: {fileID: 5705261108354476141}
   - component: {fileID: 2495922294553856145}
-<<<<<<< HEAD
   m_Layer: 7
-=======
-  m_Layer: 0
->>>>>>> 282d628cae1a8b2a819eb2669d09287ac66f8a79
   m_Name: croissant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730609000794682}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.28106007, y: 0, z: 0.23042464}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

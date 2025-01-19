@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8203791163865278283}
   - component: {fileID: 2592190411324902031}
   - component: {fileID: 5589170822993401926}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: PW_mochapot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
