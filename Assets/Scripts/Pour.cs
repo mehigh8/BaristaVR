@@ -18,8 +18,8 @@ public class Pour : Holdable
             {
                 if (Physics.Raycast(pouringPoint.transform.position, Vector3.down, out RaycastHit hit, float.MaxValue, PlayerData.GetInstance().cupLayer))
                 {
-                    Cup cup = PlayerData.GetInstance().cup;
-                    if (cup != null && hit.collider.gameObject.Equals(cup.gameObject))
+                    Cup cup = hit.collider.gameObject.GetComponent<Cup>();
+                    if (cup != null)
                     {
                         if (isCoffee)
                             cup.IncreaseCoffee(inclination * basePouringSpeed * Time.deltaTime);
