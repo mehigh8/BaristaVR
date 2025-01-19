@@ -69,7 +69,7 @@ public class OrderManager : MonoBehaviour
                 food = item.gameObject;
         }
 
-        if (cup != null)
+        if (cup != null && (1f - cup.GetComponent<Cup>().totalAmount < 0.1f))
         {
             if (currentOrder.food.Equals(""))
                 CompleteOrder();

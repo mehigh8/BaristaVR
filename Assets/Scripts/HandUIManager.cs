@@ -7,7 +7,9 @@ using Valve.VR;
 public class HandUIManager : MonoBehaviour
 {
     public GameObject uiObject;
-    public TMP_Text recipeText;
+    public GameObject coffeeIndicator;
+    public GameObject milkIndicator;
+    public TMP_Text foodText;
 
     private bool isShown = false;
 
@@ -31,5 +33,15 @@ public class HandUIManager : MonoBehaviour
     {
         if (isShown)
             uiObject.transform.LookAt(uiObject.transform.position - (Camera.main.transform.position - uiObject.transform.position));
+
+        if (OrderManager.GetInstance() != null) {
+            coffeeIndicator.transform.localScale = new Vector3(coffeeIndicator.transform.localScale.x, OrderManager.GetInstance().currentOrder.coffee.x, coffeeIndicator.transform.localScale.z);
+            milkIndicator.transform.localScale = new Vector3(milkIndicator.transform.localScale.x, OrderManager.GetInstance().currentOrder.coffee.y, milkIndicator.transform.localScale.z);
+
+            if (OrderManager.GetInstance().currentOrder.food.Equals(""))
+                foodText.text = "";
+            else
+                foodText.text = "+\n" + OrderManager.GetInstance().currentOrder.food;
+        }
     }
 }
