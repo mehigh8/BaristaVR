@@ -7,6 +7,7 @@ public class PlayerData : MonoBehaviour
     public Cup cup = null;
     public Pour pour = null;
     public LayerMask cupLayer;
+    public LayerMask foodLayer;
     public HandUIManager handUIManager;
 
     private static PlayerData instance;
@@ -20,4 +21,9 @@ public class PlayerData : MonoBehaviour
     }
 
     public static PlayerData GetInstance() { return instance; }
+
+    public static bool LayerMaskContains(LayerMask mask, int layer)
+    {
+        return mask == (mask | (1 << layer));
+    }
 }

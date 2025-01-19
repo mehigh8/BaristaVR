@@ -1655,6 +1655,9 @@ MonoBehaviour:
   cupLayer:
     serializedVersion: 2
     m_Bits: 64
+  foodLayer:
+    serializedVersion: 2
+    m_Bits: 128
   handUIManager: {fileID: 8065056115263236651}
 --- !u!114 &8065056115263236651
 MonoBehaviour:

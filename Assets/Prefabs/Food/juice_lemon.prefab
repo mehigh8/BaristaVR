@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 8771316858275494832}
   - component: {fileID: 1288464697264866588}
   - component: {fileID: 8990493517969942635}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: juice_lemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
