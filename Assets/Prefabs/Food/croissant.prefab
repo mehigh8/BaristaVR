@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1235161511780338763}
   - component: {fileID: 5705261108354476141}
   - component: {fileID: 2495922294553856145}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: croissant
   m_TagString: Untagged
   m_Icon: {fileID: 0}

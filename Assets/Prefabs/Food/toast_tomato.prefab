@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8073882676394025318}
   - component: {fileID: 7183981802229582935}
   - component: {fileID: 1392278152637817031}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: tomatoes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 1120375788969402010}
   - component: {fileID: 4108682934116642006}
   - component: {fileID: 8296899651345112694}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 6505608724470161382}
   - component: {fileID: 8853994712805110252}
   - component: {fileID: 9060223182029047365}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: toast_tomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 3711043616831416321}
   - component: {fileID: 7521571022046011885}
   - component: {fileID: 7559661546726267555}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: cheese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 2908825864657962058}
   - component: {fileID: 6090421048004045618}
   - component: {fileID: 7178146644512207930}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: mint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

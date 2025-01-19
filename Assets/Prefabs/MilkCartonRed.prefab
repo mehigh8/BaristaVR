@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3382066049845861257}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pouringPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 4153726187546798538}
   - component: {fileID: 714195627894036893}
   - component: {fileID: 2488171345339668356}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MilkCartonRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.396, y: 0.45140654, z: 0.6480873}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3382066049845861257}
@@ -316,3 +316,6 @@ MonoBehaviour:
   basePouringSpeed: 0.004
   pouringPoint: {fileID: 1749016795246882086}
   isCoffee: 0
+  particleSystem: {fileID: 786807292284868297, guid: 46301e7a41a328b449a0203bc23ac254, type: 3}
+  milkColor: {fileID: 2100000, guid: ae7375406b488984a9a895538963bba9, type: 2}
+  coffeeColor: {fileID: 2100000, guid: 8c2fc97de7ced5246a868c57062cb065, type: 2}

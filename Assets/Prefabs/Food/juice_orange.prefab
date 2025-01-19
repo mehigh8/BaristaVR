@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1408841326337520965}
   - component: {fileID: 4158902915063964506}
   - component: {fileID: 7053663276739326660}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 6837730860895308552}
   - component: {fileID: 100417406322139284}
   - component: {fileID: 2665682232590140417}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: juice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 8045406432896047495}
   - component: {fileID: 172037152350959214}
   - component: {fileID: 4452035417392094656}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 3623036461147216219}
   - component: {fileID: 3439942847986113954}
   - component: {fileID: 7201555190888542318}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: juice_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}

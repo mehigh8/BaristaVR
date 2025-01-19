@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8195554072645761211}
   - component: {fileID: 8196394689782290313}
   - component: {fileID: 5861846815132129198}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: toast_eggs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 1514156082086345247}
   - component: {fileID: 4282498719107350824}
   - component: {fileID: 4079776433875374595}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: cheese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 1125527241271413898}
   - component: {fileID: 2402338939992548272}
   - component: {fileID: 6220857596659359002}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: eggs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 8789970584976197650}
   - component: {fileID: 7463650858832665590}
   - component: {fileID: 6979394204788796700}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: olives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 2232491034200603870}
   - component: {fileID: 4554090382252936256}
   - component: {fileID: 3475962406470201393}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
